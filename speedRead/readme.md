@@ -1,1 +1,5 @@
 # speedRead - read faster!
+1. npm install to down dependencies
+
+history: 
+Actually, there really is no history to this. I started my reading assignment and went totally offtrack for about 11 hours doing pretty much only this. In the beginning the idea was simple: make a spreeder (get it, speed-reader?). And then I wanted to adjust the positions of each DOM elements, referred to @TheCodingTrain archives I used to see. That was about until 4pm. And then I wanted to have persistence, and since the hot topic is about data mining the user's experiences I wanted to slightly do something similar, purely for statistical curiosities, maybe even test Zipf's law and stuff. So I tried let fs = require("fs); on the standard html + p5 environment to simply write in the library folder a json. Lo and behold, doesn't work. Googled for about an hour and a half to realise I needed a different one pulled up the archive of node apps. And finally, having understood sockets, I got to finishing up the text collector. I thought it'd be helpful later if I log my intentions now. 20180510
