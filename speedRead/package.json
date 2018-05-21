@@ -1,0 +1,21 @@
+{
+  "name": "speedread",
+  "version": "1.0.0",
+  "description": "spead read",
+  "main": "server.js",
+  "scripts": {
+    "test": "run"
+  },
+  "keywords": [
+    "speed",
+    "reading"
+  ],
+  "author": "hyunjin jeong",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "socket.io": "^2.1.0",
+    "websocket": "^1.0.26"
+  }
+}
