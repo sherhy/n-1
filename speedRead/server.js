@@ -1,4 +1,5 @@
 let fs = require('fs');
+let express = require('express');
 let app = express();
 
 //for heroku -> process.env.PORT
@@ -8,7 +9,6 @@ let server = app.listen(process.env.PORT || 3000, () => {
 	console.log('spreeder app listening at http://' + host + ':' + port);
 });
 
-let express = require('express');
 app.use(express.static('public'));
 
 //socket
